@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Style Property Basic</title>
+    <style>
+        #box {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <span>Dummy</span>
+    <div id="box">
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+    </div>
+    <span>Dummy</span>
+</body>
+</html>
+<!-- inline-block 속성은 inline 속성의 특징과 block 속성의 특징 둘 다 가지고 있는 속성이다.
+기본적인 특징은 inline 속성과 비슷한데 (줄바꿈을 하지 않고, 동일한 라인에 작성가능)
+ inline속성에서 할 수 없었던 width/height 변경 및 line-height를 커스텀하게 적용할 수 있는 특징이 있다. 
+
+1. width/height 적용 가능
+2.margin/padding-top/bottom 적용 가능
+3. line-height 적용 가능
+** 고려사항
+
+inline-block 사이에 공백이 생기게 되는데, parent 태그에 font-size: 0를 적용하면 해결된다.
+inline-block 끼리 높이가 안맞을 때 상위 공백이 생기게 되는데 vertical-align: top을 적용하면 해결할 수 있다. -->
